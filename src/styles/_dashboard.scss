@@ -1,0 +1,170 @@
+.dashboard {
+	overflow-y: auto;
+	&::-webkit-scrollbar {
+		display: none;
+	}
+	// bar
+	.bar {
+		height: 4rem;
+		@include flex(row, unset);
+		padding: 0 1rem;
+		border-bottom: 1px solid rgba($color: #000000, $alpha: 0.37);
+		> input {
+			margin-right: auto;
+			@include inputStyles(100%, 1rem 0);
+		}
+		> svg {
+			font-size: 1.2rem;
+			opacity: 0.7;
+		}
+		> img {
+			@include square(2rem);
+			border-radius: 50%;
+		}
+	}
+
+	//**  widgetcontainer
+	.widget-container {
+		@include flex(row, space-around, stretch, 1rem);
+		// flex-wrap: wrap;
+		padding: 2rem 2rem 2rem 0;
+		.widget {
+			border-radius: 10px;
+			min-width: 14rem;
+			background-color: white;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.132);
+			padding: 1rem;
+			@include flex(row, space-between, stretch, 1rem);
+			.widget-isnfo {
+				> p {
+					opacity: 0.7;
+					font-size: 0.7rem;
+				}
+				> h4 {
+					font-size: 1.3rem;
+				}
+				> span {
+					@include flex(row, unset, center, 0.2rem);
+				}
+			}
+			.widget-circle {
+				position: relative;
+				@include square(5rem);
+				border-radius: 50%;
+				flex: none;
+				display: grid;
+				place-items: center;
+				&::before {
+					content: "";
+					position: absolute;
+					@include square(4rem);
+					background-color: white;
+					border-radius: 100%;
+				}
+				span {
+					position: relative;
+				}
+			}
+		}
+	}
+	// ** graph-container
+	.graph-container {
+		@include flex(row, unset, unset, 2rem);
+		padding: 0 2rem 2rem 0;
+		width: 100%;
+		> div {
+			background-color: white;
+			border-radius: 10px;
+		}
+		.revenue-chart {
+			width: 70%;
+			padding: 1rem 3rem;
+			> h2 {
+				@include heading;
+				margin: 1rem 0 2rem 0.25rem;
+				text-align: center;
+				opacity: 0.8;
+			}
+		}
+
+		.dashboard-categories {
+			width: 30%;
+			max-width: 16rem;
+			@include flex(column, center, unset, 0);
+			padding-bottom: 2rem;
+			> h2 {
+				@include heading;
+				margin: 1.5rem 0 2rem 0rem;
+				text-align: center;
+				opacity: 0.8;
+			}
+			> div {
+				overflow-y: auto;
+				padding-left: 0.5rem;
+			}
+			.category-item {
+				width: 100%;
+				@include flex(row, space-between);
+				padding: 1rem;
+				> h5 {
+					letter-spacing: 1px;
+					font-weight: 300;
+				}
+				> div {
+					margin-left: auto;
+					width: 6rem;
+					background-color: rgb(217, 217, 217);
+					border-radius: 20px;
+					height: 0.5rem;
+					flex: none;
+					> div {
+						height: 100%;
+						border-radius: 20px;
+					}
+				}
+				> span {
+					font-size: 0.8rem;
+					font-weight: 700;
+				}
+			}
+		}
+	}
+
+	// gender charts and table
+	.transaction-container {
+		display: flex;
+		gap: 2rem;
+		padding: 0 2rem 2rem 0;
+		height: 30rem;
+		> div {
+			background-color: white;
+			box-shadow: 0 10px 10px rgba(0, 0, 0, 0.132);
+			border-radius: 10px;
+		}
+		.gender-chart {
+			width: 100%;
+			max-width: 20rem;
+			padding: 1rem;
+			position: relative;
+			> h2 {
+				text-align: center;
+				margin: 1.5rem 0 2rem 0;
+				@include heading;
+			}
+			> p {
+				@include posCenter;
+				font-size: 2rem;
+				color: rgba(0, 0, 0, 0.634);
+			}
+		}
+		.transaction-box {
+			width: 100%;
+			padding: 1rem;
+			overflow-x: auto;
+			> h2 {
+				margin: 1.5rem 0 0 0;
+				@include heading;
+			}
+		}
+	}
+}

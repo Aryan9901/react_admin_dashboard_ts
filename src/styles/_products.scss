@@ -1,0 +1,186 @@
+.dashboard-product-box {
+	background-color: white;
+	padding: 2rem;
+	overflow: auto;
+	@include square(100%);
+}
+
+.create-product-btn {
+	position: fixed;
+	right: 2rem;
+	top: 2rem;
+	@include square(2.5rem);
+	@include flex(row, center, center, 0);
+	border-radius: 50%;
+	background-color: rgb(201, 9, 9);
+	color: white;
+	&:hover {
+		opacity: 0.8;
+	}
+}
+
+.products {
+	overflow-y: auto;
+	&::-webkit-scrollbar {
+		display: none;
+	}
+}
+
+.product-management {
+	overflow-y: auto;
+	&::-webkit-scrollbar {
+		display: none;
+	}
+	@include flex(row, center, unset, 0);
+	padding: 4rem;
+	> section {
+		// border-right: 1px solid #000;
+		overflow-y: auto;
+		&::-webkit-scrollbar {
+			display: none;
+		}
+		width: 100%;
+		height: 100vh;
+		max-width: 450px;
+		// box-shadow: -2px 0px 1px rgba(0, 0, 0, 0.216);
+		box-shadow: -2px 0px 1px rgba(0, 0, 0, 0.216), inset -2px 0 5px rgb(119 114 114 / 20%);
+		background-color: white;
+		padding: 2rem 1rem;
+		@include flex(column, unset, unset, 1rem);
+		position: relative;
+		border-radius: 5px;
+		border-top-right-radius: 0;
+		border-bottom-right-radius: 0;
+		> h2 {
+			@include heading(2px);
+			text-align: center;
+		}
+		> strong {
+			font-weight: 300;
+		}
+		> img {
+			@include square(100%);
+			object-fit: cover;
+		}
+		> span {
+			position: absolute;
+			right: 2rem;
+			top: 2rem;
+		}
+		> p {
+			text-align: center;
+			letter-spacing: 2px;
+			text-transform: uppercase;
+		}
+		> h3 {
+			text-align: center;
+		}
+	}
+	> article {
+		overflow-y: auto;
+		&::-webkit-scrollbar {
+			display: none;
+		}
+		// margin: auto;
+		height: 100vh;
+		padding: 2rem;
+		width: 100%;
+		max-width: 450px;
+		background-color: white;
+		border-radius: 5px;
+		// box-shadow: 2px 0px 1px rgba(0, 0, 0, 0.216);
+		box-shadow: 2px 0px 1px rgba(0, 0, 0, 0.216), inset 2px 0 5px rgb(119 114 114 / 20%);
+		border-top-left-radius: 0;
+		border-bottom-left-radius: 0;
+
+		> form {
+			@include flex(column, unset, center, 1.5rem);
+			> h2 {
+				text-transform: uppercase;
+				letter-spacing: 2px;
+			}
+			> img {
+				@include square(4rem);
+				// border-radius: 50%;
+				object-fit: cover;
+				border-radius: 5px;
+			}
+			> div {
+				width: 100%;
+				position: relative;
+				> label {
+					position: absolute;
+					left: 12;
+					top: -0.5rem;
+					background-color: white;
+				}
+				> input {
+					@include inputStyles(100%, 1rem, unset, 1px solid rgba(13, 13, 13, 0.196));
+					border-radius: 5px;
+				}
+				> div:first-child {
+					@include flex(column, center, center, 1rem);
+				}
+				> input[type="file"] {
+					// width: 30%;
+					padding: 0;
+					border: none;
+					&::-webkit-file-upload-button {
+						background-color: blue;
+						border: none;
+						width: 100%;
+						padding: 0.5rem;
+						font-size: 1rem;
+						content: "Choose Photo";
+					}
+				}
+			}
+			> button {
+				padding: 1rem;
+				border: none;
+				background-color: rgb(5, 107, 224);
+				width: 100%;
+				border-radius: 5px;
+				cursor: pointer;
+			}
+		}
+	}
+
+	.shipping-info-card {
+		> h1 {
+			text-align: center;
+			@include heading(2px);
+		}
+		> h5 {
+			margin: 0.5rem 0 0 0.5rem;
+			font-size: 1.1rem;
+			font-weight: 700;
+		}
+		> p {
+			margin: 0.2rem 0.5rem 0.2rem 1.5rem;
+		}
+		> button {
+			margin: 1rem 0;
+			padding: 0.7rem 1.4rem;
+			border-radius: 5px;
+			cursor: pointer;
+			border: none;
+			background-color: rgb(5, 107, 224);
+			font-size: 1.1rem;
+			color: white;
+			width: 100%;
+		}
+	}
+}
+
+.transaction-product-card {
+	@include flex(row, start, center, 1rem);
+	> img {
+		@include square(4rem);
+		object-fit: cover;
+		border-radius: 5px;
+	}
+	> span {
+		margin-left: auto;
+	}
+}
