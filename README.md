@@ -16,8 +16,7 @@ Check out the live demo [Live Demo](https://react-admin-dashboard-ts-p3an.vercel
 - [Features](#Features)
 - [Screenshots](#screenshots)
 - [Technologies Used](#technologies-used)
-- [How to Clone and Run the Project](#how-to-clone-and-run-the-project)
-- [Demo](#demo)
+- [Installation](#Installation)
 
 ## Introduction
 This project is an eCommerce Dashboard designed to provide users with a comprehensive view of their online store's performance and customer trends. It's built using React.js, TypeScript, and SASS to ensure a robust and scalable solution. The dashboard includes interactive data tables and dynamic charts, powered by React-Table and various charting libraries, for visualizing sales trends, product tracking, and user demographics. Additionally, there's functionality for managing products, tracking orders, and analyzing revenue distribution.
@@ -65,6 +64,6 @@ Here are some screenshots of the Shiksha Arpan Platform:
 ## Installation
 
 1. Clone the repository:
--👉 git clone <repository-url>
+- 👉 git clone <repository-url>
 2. Install dependencies:
 - 👉 npm install
