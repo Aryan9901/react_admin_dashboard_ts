@@ -13,8 +13,7 @@ Check out the live demo [Live Demo](https://react-admin-dashboard-ts-p3an.vercel
 
 ## Table of Contents
 - [Introduction](#Introduction)
-- [Features)(#Features)
-- [Key Features](#key-features)
+- [Features](#Features)
 - [Screenshots](#screenshots)
 - [Results](#results)
 - [Conclusion](#conclusion)
@@ -28,17 +27,15 @@ This project is an eCommerce Dashboard designed to provide users with a comprehe
 ## Features
 - **Responsive Design:** The dashboard is fully responsive, ensuring seamless user experience across devices and screen sizes.
 - **Interactive Data Tables:** Utilizing React-Table, users can easily browse through and analyze various datasets with sorting, filtering, and pagination functionalities.
-- **Dynamic Charts and Graphs:** Visualize key metrics such as:
-    👉 Number of users and gender statistics
-    👉 Product inventory status (in-stock vs. out-of-stock)
-    👉 Category-wise product sales (pie chart)
-    👉 Revenue trends (line chart)
-    👉 Order fulfillment ratio
-    👉 Revenue distribution
-    👉 Users age group distribution
-- **Expert Assistance**: Instructors are available to provide expert guidance on specific topics.
-- **Captivating Visual Design**: Utilized modern design principles to create a visually appealing interface that attracts and retains users.
-- **Responsive Design**: Ensured the design is fully responsive, providing an optimal user experience across various devices and screen sizes.
+- **Dynamic Charts and Graphs:** Visualize key metrics such as:</br>
+ -   👉 Number of users and gender statistics
+ -   👉 Product inventory status (in-stock vs. out-of-stock)
+ -   👉 Category-wise product sales (pie chart)
+ -   👉 Revenue trends (line chart)
+ -   👉 Order fulfillment ratio
+ -   👉 Revenue distribution
+ -   👉 Users age group distribution
+- **Product Management:** Functionality for adding new products, tracking product status (shipped, delivered, dispatched), and managing inventory.
 
   ## Screenshots
 
