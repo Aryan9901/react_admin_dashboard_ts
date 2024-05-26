@@ -13,8 +13,7 @@ Check out the live demo [Live Demo](https://react-admin-dashboard-ts-p3an.vercel
 
 ## Table of Contents
 - [Introduction](#Introduction)
-- [Feature 1: Community Discussion Forum](#feature-1-community-discussion-forum)
-- [Feature 2: Enhanced Tutor Matching Algorithm](#feature-2-enhanced-tutor-matching-algorithm)
+- [Features)(#Features)
 - [Key Features](#key-features)
 - [Screenshots](#screenshots)
 - [Results](#results)
@@ -26,19 +25,17 @@ Check out the live demo [Live Demo](https://react-admin-dashboard-ts-p3an.vercel
 ## Introduction
 This project is an eCommerce Dashboard designed to provide users with a comprehensive view of their online store's performance and customer trends. It's built using React.js, TypeScript, and SASS to ensure a robust and scalable solution. The dashboard includes interactive data tables and dynamic charts, powered by React-Table and various charting libraries, for visualizing sales trends, product tracking, and user demographics. Additionally, there's functionality for managing products, tracking orders, and analyzing revenue distribution.
 
-## Feature 1: Community Discussion Forum
-- **Interactive Discussion Threads**: Users can start new discussions or join existing ones, fostering a collaborative learning environment.
-- **Category Navigation**: Easy access to various categories such as Amazon AWS, React, Mathematics, Physics, and more, allowing users to find relevant topics quickly.
-- **User Engagement**: Features like upvoting answers, tagging topics, and a visually appealing layout to enhance user participation and interaction.
-
-## Feature 2: Enhanced Tutor Matching Algorithm
-- **Personalized Tutor Selection**: Users can select tutors based on their subject needs (Mathematics, Physics, Chemistry) and availability.
-- **Detailed Tutor Profiles**: Display tutor profiles with their expertise, response time, and availability, helping users make informed decisions.
-- **Responsive Design**: Ensure that the tutor matching feature is accessible and easy to use across all devices.
-
-## Key Features
-- **Educational Focus**: The platform is designed for sharing knowledge and solving doubts in various academic and technical fields.
-- **Interactive Discussions**: Users can engage in discussions, ask questions, and provide answers, fostering a collaborative learning environment.
+## Features
+- **Responsive Design:** The dashboard is fully responsive, ensuring seamless user experience across devices and screen sizes.
+- **Interactive Data Tables:** Utilizing React-Table, users can easily browse through and analyze various datasets with sorting, filtering, and pagination functionalities.
+- **Dynamic Charts and Graphs:** Visualize key metrics such as:
+    👉 Number of users and gender statistics
+    👉 Product inventory status (in-stock vs. out-of-stock)
+    👉 Category-wise product sales (pie chart)
+    👉 Revenue trends (line chart)
+    👉 Order fulfillment ratio
+    👉 Revenue distribution
+    👉 Users age group distribution
 - **Expert Assistance**: Instructors are available to provide expert guidance on specific topics.
 - **Captivating Visual Design**: Utilized modern design principles to create a visually appealing interface that attracts and retains users.
 - **Responsive Design**: Ensured the design is fully responsive, providing an optimal user experience across various devices and screen sizes.
