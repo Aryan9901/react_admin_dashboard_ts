@@ -9,7 +9,7 @@ Check out the live demo [Live Demo](https://react-admin-dashboard-ts-p3an.vercel
  Welcome to our dynamic eCommerce Dashboard built with React, TypeScript, and SASS. Featuring interactive data visualization powered by React-Table and Chart.js-2, this dashboard provides insightful analytics at your fingertips. Additionally, we've crafted an engaging guessing game using vanilla JavaScript, allowing users to test their intuition with instant feedback and tracking of their attempts.
 
 ## Preview
-![Shiksha Arpan Platform Preview](https://github.com/Aryan9901/Shiksha-Arpan-Web-Development-Challenge-/blob/main/Screenshot%202024-05-15%20111636.png)
+![React Ecommerce Admin Dashboard Preview](https://github.com/Aryan9901/react_admin_dashboard_ts/blob/master/admindashboard.png)
 
 ## Table of Contents
 - [Introduction](#Introduction)
