@@ -1,7 +1,6 @@
 import AdminSidebar from "../../components/AdminSidebar";
 import { LineChart } from "../../components/Charts";
 
-
 const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 
 const LineCharts = () => {
