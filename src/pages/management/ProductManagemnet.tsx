@@ -4,8 +4,6 @@ import AdminSidebar from "../../components/AdminSidebar";
 const img =
 	"https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2hvZXN8c2hvZXN8ZW58MHx8MHx8&w=1000&q=804";
 
-
-
 const ProductManagemnet = () => {
 	const [name, setName] = useState<string>("Puma Shoes");
 	const [price, setPrice] = useState<number>(1399);
